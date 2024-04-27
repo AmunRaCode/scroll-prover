@@ -19,7 +19,7 @@ git submodule update --checkout
 ```
 
 Download all setup params, degree `20`, `24` and `26` are used in [config](https://github.com/scroll-tech/scroll-prover/tree/main/integration/configs).
-Could only download params of degree `26`, but it may affect performance (when downsizing params).
+You may choose to only download params of degree `26`, but it may affect performance (when downsizing params).
 ```shell
 make download-setup -e degree=20
 make download-setup -e degree=24
