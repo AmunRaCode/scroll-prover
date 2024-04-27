@@ -12,7 +12,7 @@ cargo install svm-rs
 svm install 0.8.19
 ```
 
-Fetch git-submodule of test traces
+Fetch the git submodule for test traces
 ```shell
 git submodule init
 git submodule update --checkout
